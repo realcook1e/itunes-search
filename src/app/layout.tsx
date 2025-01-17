@@ -26,8 +26,10 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={`${inter.variable} antialiased`}>
-				<Header />
-				<Suspense>{children}</Suspense>
+				<Suspense>
+					<Header />
+					{children}
+				</Suspense>
 			</body>
 		</html>
 	);

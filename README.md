@@ -9,6 +9,10 @@ npm install
 npm run dev
 ```
 
+You may also need to run command
+`npm install react-loader-spinner --legacy-peer-deps` if this lib
+will not be installed after `npm install`
+
 Open [http://localhost:3000](http://localhost:3000) with your
 browser to see the result.
 
