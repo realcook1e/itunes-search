@@ -17,7 +17,6 @@ const SearchList: React.FC<SearchListProps> = async ({
 	const searchResults = await fetchMedia(
 		new URLSearchParams({ term, media, explicit })
 	);
-	console.log(searchResults.data);
 
 	return (
 		<div className="container mt-10 h-[100%]">
